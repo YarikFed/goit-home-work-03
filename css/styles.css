@@ -14,7 +14,11 @@ p,h1,h2,h3,h4,h5,h6,ul {
     margin: 0;
     padding: 0;
 }
-
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 /* Boty */
 body {
     font-family: "Roboto",sans-serif;
@@ -22,6 +26,17 @@ body {
     background-color: #FFFFFF;
 }
 /* Header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 332px;
+}
 .logo {
     color: var(--iris);
         font-family: "Raleway",sans-serif;
@@ -33,12 +48,15 @@ body {
         text-transform: uppercase;
         line-height: 1.17;
         text-decoration: none;
+        margin-right: 76px;
 }
 .logo-studio {
     color: var(--navyblue);
 }
 .list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 .list-item {
     color: var(--navyblue);
@@ -50,6 +68,7 @@ body {
         letter-spacing: 0.32px;
         line-height: 1.5;
         text-decoration: none;
+        padding: 24px 0 24px;
 }
 .list:hover {
     color: #404bbf;
@@ -65,6 +84,8 @@ body {
 }
 .address {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 .list {
     color: var(--anthracite);
