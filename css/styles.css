@@ -201,6 +201,17 @@ body {
         letter-spacing: 0.72px;
         text-transform: capitalize;
         line-height: 1.11;
+        margin-bottom: 72px;
+}
+.image {
+    padding-bottom: 120px;
+}
+.image-list {
+    display: flex;
+    gap: 24px;
+}
+.image-list-item {
+    width: calc((100% - 48px) / 3);
 }
 /* Team */
 .team {
