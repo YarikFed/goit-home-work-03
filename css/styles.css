@@ -19,6 +19,18 @@ p,h1,h2,h3,h4,h5,h6,ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* Boty */
 body {
     font-family: "Roboto",sans-serif;
@@ -163,6 +175,19 @@ body {
         line-height: 24px;
         letter-spacing: 0.32px;
         line-height: 1.5;
+}
+.list-title {
+    margin-bottom: 8px;
+}
+.main-purposes-list {
+    padding: 120px 0;
+}
+.purposes-list {
+    display: flex;
+    gap: 24px;
+}
+.purposes-list-item {
+    width: calc((100% - 72px) / 4);
 }
 /* What are we doing */
 .image-text {
