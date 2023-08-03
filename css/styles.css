@@ -262,6 +262,7 @@ body {
 /* Footer */
 .footer {
     background: var(--navyblue);
+    padding: 100px 0;
 }
 .footer-logo {
     color: var(--iris);
@@ -273,6 +274,8 @@ body {
         letter-spacing: 0.54px;
         text-transform: uppercase;
         line-height: 1.17;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .footer-logo-studio {
     color: var(--cloud);
@@ -293,6 +296,7 @@ body {
         line-height: 24px;
         letter-spacing: 0.32px;
         line-height: 1.5;
+        max-width: 264px;
 }
 /* Portfolio styles */
 .button-list {
